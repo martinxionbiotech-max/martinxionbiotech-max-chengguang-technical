@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://technical.chengguangenergy.com/sitemap.xml
