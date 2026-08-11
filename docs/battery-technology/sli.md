@@ -6,7 +6,9 @@ title: "SLI (Starting, Lighting, Ignition) Battery"
 
 ## 1. Definition
 
-An SLI (Starting, Lighting, Ignition) battery is a standard flooded lead-acid battery designed to deliver a short, high-current burst to start an internal combustion engine, then be immediately recharged by the vehicle's alternator.
+An **SLI (Starting, Lighting, Ignition) battery** is a flooded lead-acid battery purpose-built for one primary function: delivering a short, high-current burst (300-900 amps) to crank an internal combustion engine, followed by immediate recharge from the vehicle's alternator. It is the most widely manufactured automotive battery technology — representing approximately 60-65% of global automotive battery production.
+
+At Chengguang Power Tech, SLI batteries are the highest-volume product line, manufactured on 18 automated assembly lines producing 40,000 units daily across JIS and DIN standards for export to 70+ countries.
 
 ## 2. How It Works
 
@@ -107,11 +109,15 @@ Modern SLI batteries with Ca-Ca grids are maintenance-free — no water topping 
 
 ## 16. References
 
-- Chengguang Power Tech product documentation
+- IEC 60095-1: Lead-acid starter batteries — General requirements and methods of test
+- SAE J537: Storage Batteries — North American test standard
+- JIS D 5301: Lead-acid starter batteries — Japanese Industrial Standard
+- EN 50342-1: Lead-acid starter batteries — European standard
 - Battery Council International (BCI) technical manuals
-- EN 50342-1: Lead-acid starter batteries — General requirements
-- SAE J537: Storage Batteries
+- Chengguang Power Tech IATF 16949 manufacturing documentation
 
 ---
 
-*This technical reference is maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/). For OEM manufacturing inquiries, [contact us](https://chengguangenergy.com/contact/).*
+*This technical reference is authored by the Chengguang Power Tech engineering team and reviewed by the IATF 16949 Quality Department. For OEM manufacturing inquiries: [Contact Chengguang](https://chengguangenergy.com/contact/).*
+
+*Related: [Browse SLI Battery Models](https://data.chengguangenergy.com/battery-models/) | [AGM Technology](https://technical.chengguangenergy.com/battery-technology/agm/) | [EFB Technology](https://technical.chengguangenergy.com/battery-technology/efb/)*

@@ -1,0 +1,13 @@
+# Chengguang Automotive Battery Technical Knowledge Center
+
+Engineering-level documentation on automotive battery technology, manufacturing, and testing.
+
+## Key Pages
+- SLI Technology: https://technical.chengguangenergy.com/battery-technology/sli/
+- AGM Technology: https://technical.chengguangenergy.com/battery-technology/agm/
+- EFB Technology: https://technical.chengguangenergy.com/battery-technology/efb/
+- Heavy Duty: https://technical.chengguangenergy.com/battery-technology/heavy-duty/
+- CCA Testing: https://technical.chengguangenergy.com/battery-testing/cca/
+- Grid Casting: https://technical.chengguangenergy.com/battery-manufacturing/grid-casting/
+- Formation: https://technical.chengguangenergy.com/battery-manufacturing/formation/
+- JIS Standard: https://technical.chengguangenergy.com/battery-standards/jis/
