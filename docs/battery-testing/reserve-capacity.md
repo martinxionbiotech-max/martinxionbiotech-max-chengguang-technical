@@ -1,36 +1,51 @@
 ---
-title: "Reserve Capacity (RC)"
+title: "Reserve Capacity (RC) — Complete Guide"
 ---
 
 # Reserve Capacity (RC)
 
-## 1. Definition
+## What Is Reserve Capacity?
 
-RC measures the number of **minutes** a fully charged battery at **27degC (80degF)** can deliver **25 amps** before voltage drops below **10.5V**. RC simulates alternator failure — how long the battery powers essential loads alone.
+RC measures the number of **minutes** a fully charged battery at **27degC (80degF)** can deliver **25 amps** before voltage drops below **10.5V**. RC simulates a real-world emergency: your alternator fails while driving at night. How long can the battery power your headlights, ignition, fuel pump, and ECU before the engine dies?
 
-## 2. Test Method
+## Test Method (SAE J537)
 
-Battery fully charged, stabilized at 27degC. Constant 25A discharge applied. Timer stops at 10.5V. Result in minutes.
+1. Battery is fully charged and stabilized at 27degC +/- 2degC
+2. A constant 25A discharge is applied
+3. Voltage is monitored continuously
+4. Timer stops when voltage reaches 10.5V
+5. Result is recorded in minutes
 
-## 3. Standards
+A higher RC number means longer runtime without the alternator. For most passenger cars, 90-120 minutes is adequate. Vehicles with heavy electrical loads (aftermarket audio, winches, auxiliary lights, computer equipment) need 120+ minutes.
 
-SAE J537, EN 50342-1. Typical values: 60-90 min (small cars), 90-150 min (mid-size), 150-250+ min (heavy duty).
+## Typical RC Values by Vehicle Class
 
-## 4. Practical Application
+| Vehicle Class | Typical RC |
+|--------------|:---:|
+| Compact car (1.3-1.6L) | 60-90 min |
+| Mid-size sedan (2.0-2.5L) | 90-120 min |
+| Large sedan/SUV (3.0L+) | 120-150 min |
+| Light truck/diesel | 150-180 min |
+| Heavy-duty truck | 200-400 min |
 
-Important for: vehicles with heavy electrical loads, emergency vehicles, marine applications, remote areas. Higher RC = longer runtime without alternator.
+## RC and Battery Selection
 
-## 5. Related Chengguang Models
+RC is especially important for:
+- **Emergency vehicles** — must operate lights and radios without engine
+- **Marine applications** — bilge pumps, navigation lights during engine-off periods
+- **Remote area vehicles** — longer runtime if alternator fails far from service
+- **Vehicles with aftermarket electronics** — audio amplifiers, inverters, auxiliary lighting
+- **Fleet vehicles with telematics** — GPS trackers, cameras drawing constant power
 
-- 145G51 RC: estimated 200-250 min
-- 190H52 RC: estimated 300-400 min
+## Chengguang Heavy Duty RC
 
-## 6. FAQ
+| Model | Estimated RC | Application |
+|-------|:---:|---|
+| 145G51 | 200-250 min | Medium trucks, buses |
+| 190H52 | 300-400 min | Heavy trucks, equipment |
 
-**Q: What is a good RC number?**
-
-For most passenger cars, 90-120 minutes adequate. With additional electrical equipment, 120+ minutes recommended.
+RC values for SLI models are available in batch test reports. [Request your order's RC data](https://chengguangenergy.com/contact/).
 
 ---
 
-*Technical reference maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/).*
+*Author: Chengguang Power Tech Engineering Team | Reference: SAE J537*

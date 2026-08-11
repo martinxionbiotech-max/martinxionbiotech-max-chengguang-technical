@@ -1,31 +1,48 @@
 ---
-title: "Charge Acceptance"
+title: "Charge Acceptance — Complete Guide"
 ---
 
 # Charge Acceptance
 
-## 1. Definition
+## What Is Charge Acceptance?
 
-Charge acceptance measures how quickly a battery absorbs charge current at a given voltage and state of charge. Higher charge acceptance = faster recharge. Critical for start-stop vehicles recharging between frequent engine restarts.
+Charge acceptance measures how quickly a battery can absorb charge current at a given voltage and state of charge. It is the current (in amperes) a partially discharged battery accepts when connected to a charging source at a fixed voltage. Higher charge acceptance = faster recharge.
 
-## 2. Test Method (DCA per EN 50342-6)
+This is the critical differentiator between SLI, EFB, and AGM batteries in modern vehicles.
 
-Battery discharged to 80% SoC, charged at 14.0V. Current measured at intervals. DCA = I_charge / C20 ratio. Higher ratio = better.
+## Test Method — DCA (Dynamic Charge Acceptance) per EN 50342-6
 
-## 3. Standards
+1. Battery is discharged to 80% State of Charge (SoC)
+2. A charging voltage of 14.0V is applied
+3. Current is measured at specified time intervals
+4. DCA is reported as I_charge / C20 ratio
 
-EN 50342-6 (EFB/AGM specific), IEC 60095-1, SAE J537.
+| Battery Type | Typical DCA Ratio | Recovery Time Between Start-Stop Events |
+|-------------|:---:|:---:|
+| **SLI** | 1.0 (baseline) | 60-120 seconds |
+| **EFB** | 1.5-2.0x SLI | 30-60 seconds |
+| **AGM** | 2.0-3.0x SLI | 15-30 seconds |
 
-## 4. Practical Application
+## Why Charge Acceptance Matters
 
-Hierarchy: **AGM** (2-3x SLI) > **EFB** (1.5-2x SLI) > **SLI** (baseline). AGM required for aggressive start-stop with regenerative braking.
+In start-stop vehicles, the engine may restart **20-50 times per trip**. Between each stop, the battery has only 30-60 seconds to recharge before the next restart. If charge acceptance is too low:
 
-## 5. FAQ
+1. Battery never reaches full charge → chronic partial state of charge (PSoC)
+2. Sulfate crystals accumulate on negative plates → sulfation
+3. Capacity fades → battery fails within 12-18 months instead of 3-5 years
 
-**Q: Why does charge acceptance matter?**
+**This is why AGM is mandatory for aggressive start-stop systems.**
 
-Start-stop vehicles may only have 30-60 seconds between stops to recharge. Low charge acceptance = battery never fully recharges = sulfation = premature failure.
+## Chengguang Charge Acceptance
+
+| Technology | Charge Acceptance | Suitable For Start-Stop |
+|-----------|:---:|:---:|
+| SLI | Baseline | :material-close: No |
+| EFB | 1.5-2x SLI | :material-check: Entry level |
+| AGM | 2-3x SLI | :material-check: Full |
+
+[Contact Chengguang](https://chengguangenergy.com/contact/) for AGM/EFB charge acceptance specifications for your OEM order.
 
 ---
 
-*Technical reference maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/).*
+*Author: Chengguang Power Tech Engineering Team | Reference: EN 50342-6*
