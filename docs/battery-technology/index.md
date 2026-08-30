@@ -1,3 +1,73 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://technical.chengguangenergy.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Battery Technology",
+      "item": "https://technical.chengguangenergy.com/battery-technology/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which technology is best for a conventional vehicle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SLI is usually the lowest-cost, proven choice for conventional vehicles in temperate climates, with a typical service life of 3-5 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which technology should an entry start-stop vehicle use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EFB is the cost-effective entry-level start-stop option, offering roughly double the cycle life of SLI. Aggressive start-stop or luxury vehicles are better served by AGM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which technology is best for trucks and construction equipment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heavy Duty batteries, with thick plates and deep-cycle tolerance, are designed for vibration, high electrical loads, and longer service in commercial vehicles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which technology performs best in cold climates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AGM or Heavy Duty batteries generally provide the best cold-CCA performance. AGM also offers better heat tolerance and faster recharge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between AGM and VRLA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AGM is a sealed, valve-regulated technology where electrolyte is absorbed in glass mat; VRLA is the broader sealed family also used in UPS, telecom, and standby applications."
+      }
+    }
+  ]
+}
+</script>
+
 # SLI vs AGM vs EFB vs Heavy Duty — Complete Technology Comparison
 
 ## Quick Decision Matrix
