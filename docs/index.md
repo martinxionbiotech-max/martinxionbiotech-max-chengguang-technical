@@ -61,9 +61,23 @@ hide:
 
 # Automotive Battery Technical Knowledge Center
 
-Welcome to the **Chengguang Automotive Battery Technical Knowledge Center** — engineering-level documentation on automotive battery technology, manufacturing, and testing.
+Welcome to the **Chengguang Automotive Battery Technical Knowledge Center** — engineering-level documentation on automotive battery technology, manufacturing, and testing, written by a manufacturer, for the people who actually specify and buy these batteries.
 
-Maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/), an IATF 16949 certified OEM automotive battery manufacturer.
+Maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/), an IATF 16949 certified OEM automotive battery manufacturer since 2002.
+
+---
+
+## What This Covers
+
+Five knowledge areas, from the chemistry inside the case to the standard printed on the label:
+
+| Area | What you'll learn |
+|---|---|
+| **Battery Technology** | How SLI, AGM, EFB, Heavy Duty and VRLA differ — construction, strengths, limits |
+| **Battery Components** | Lead grids, separators, electrolyte, case — what each part does and why it matters |
+| **Battery Testing** | CCA, Reserve Capacity, C20, Charge Acceptance — how they're measured and read |
+| **Manufacturing** | Grid casting, plate pasting, curing, formation — the production process end to end |
+| **Standards** | JIS, DIN, BCI, AS, SA — the specs and regional differences behind the labels |
 
 ---
 
@@ -105,8 +119,20 @@ Maintained by [Chengguang Power Tech Co., Ltd.](https://chengguangenergy.com/), 
 
 ---
 
+## Start Here
+
+New to automotive batteries? These are the two concepts everything else builds on:
+
+- :material-snowflake: **[Cold Cranking Amps (CCA)](battery-testing/cca.md)** — the cold-start power rating, and why it's not the same as stored energy.
+- :material-battery-charging: **[Reserve Capacity](battery-testing/reserve-capacity.md)** — how long the battery keeps accessories running if the alternator fails.
+
+If you're comparing battery types before you buy, start with [SLI](battery-technology/sli.md), [AGM](battery-technology/agm.md), and [EFB](battery-technology/efb.md) to understand the trade-offs.
+
+---
+
 ## Related Resources
 
-- :material-car-battery: [Battery Model Database](https://data.chengguangenergy.com/) — JIS & DIN specifications
-- :material-package-variant-closed: [OEM Manufacturing](https://oem.chengguangenergy.com/) — Build your own battery brand
-- :material-domain: [Chengguang Energy](https://chengguangenergy.com/) — Factory & commercial inquiries
+- :material-car-battery: [Battery Model Database](https://data.chengguangenergy.com/) — JIS & DIN specifications and cross-references
+- :material-package-variant-closed: [OEM Manufacturing](https://oem.chengguangenergy.com/) — build your own battery brand
+- :material-calculator: [Battery Tools](https://tool.chengguangenergy.com/) — free calculators and finders
+- :material-domain: [Chengguang Energy](https://chengguangenergy.com/) — factory & commercial inquiries
