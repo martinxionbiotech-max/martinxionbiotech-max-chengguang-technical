@@ -11,3 +11,12 @@ Engineering-level documentation on automotive battery technology, manufacturing,
 - Grid Casting: https://technical.chengguangenergy.com/battery-manufacturing/grid-casting/
 - Formation: https://technical.chengguangenergy.com/battery-manufacturing/formation/
 - JIS Standard: https://technical.chengguangenergy.com/battery-standards/jis/
+
+## Ecosystem
+
+- [Main Site](https://chengguangenergy.com/): Factory, capabilities, certifications, contact
+- [Battery Database](https://data.chengguangenergy.com/): Models, specifications, cross-reference
+- [Technical Center](https://technical.chengguangenergy.com/): Technology, engineering, testing — **this site**
+- [OEM Manufacturing](https://oem.chengguangenergy.com/): Private label, custom, OEM process
+- [Market Intelligence](https://market.chengguangenergy.com/): Regional demand and market trends
+- [Battery Tools](https://tool.chengguangenergy.com/): Finders, calculators, cross-reference tools
